@@ -8,5 +8,11 @@ public enum TokenType {
     SYMBOL,
     INT_CONST,
     STRING_CONST,
-    IDENTIFIER
+    IDENTIFIER;
+
+    @Override
+    public String toString() {
+        return this.name().toLowerCase();
+    }
+
 }

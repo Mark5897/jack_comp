@@ -24,6 +24,7 @@ public enum Keyword {
     TRUE,
     FALSE,
     NULL,
+    THAT,
     THIS;
 
     @Override
